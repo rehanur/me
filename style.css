@@ -1,8 +1,9 @@
 @import url("./opacity.max.css");
 :root{
-    --prime: rgb(65, 212, 151);
+    --prime: var(--crimson);
     --second: #ffffff;
     --bodybg: #000;
+    --footerbg: #111;
     --itembg: rgba(0, 0, 0, 0.932);
     --font:  --o-roboto;
 }
@@ -404,6 +405,9 @@ form button{
     background: transparent;
 }
 /*footer*/
+footer{
+    background: var(--footerbg);
+}
 footer .links a{
     font-size: 1.4rem;
     margin: 0 10px;
