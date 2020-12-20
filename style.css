@@ -1,9 +1,9 @@
 @import url("./opacity.max.css");
 :root{
-    --prime: var(--crimson);
+    --prime: rgb(65, 212, 151);
     --second: #ffffff;
     --bodybg: #000;
-    --footerbg: #111;
+    --footerbg:#111;
     --itembg: rgba(0, 0, 0, 0.932);
     --font:  --o-roboto;
 }
